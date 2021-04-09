@@ -45,3 +45,46 @@ if (numero % 5 === 0){
 } else {
   console.log("No, el número " + numero + " no es múltiplo de 5")
 }
+
+//Ejemplo7
+let num = Number(prompt("Ingresa tu número: "))
+if (num === 10) {
+  console.log("El número es igual que 10")
+ } else if (num > 10){
+   console.log("El número es mayor que 10")
+ } else {
+   console.log("El número es menor a 10")
+ }
+
+//Ejemplo8
+const peso = Number(prompt("Ingrese su peso: "))
+const altura = Number(prompt("Ingrese su altura: "))
+let BMI = peso /(altura ** 2)
+
+if (BMI < 18.5) {
+ console.log("Bajo de peso")
+} else if ( BMI >= 18.5 && BMI < 25) {
+ console.log("Peso normal")
+} else if ( 25 <= BMI < 30) {
+ console.log("Sobrepeso")
+} else {
+  console.log("Obeso")
+}
+
+//Ejemplo9
+const num = Number(prompt("Ingrese un número: "))
+if (num % 3 === 0 && num % 5 === 0) {
+  console.log("Bingbong")
+ } else if (num % 3 === 0) {
+  console.log("Bing")
+ } else if (num % 5 === 0) {
+  console.log("Bong")
+ } else {
+ console.log(num)
+}
+
+//Ejemplo10
+let frase = prompt("Ingresa una frase: ")
+for(let i = 0; i < 10; i++) {
+  console.log(frase)
+}

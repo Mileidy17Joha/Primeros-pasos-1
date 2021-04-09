@@ -8,5 +8,5 @@ console.log("Hola "  + nombre )
 promprt siempre nos devuelve un string. Si queremos convertir el string a un número debemos usar parseInt*/
 
 var edad = prompt("¿Cuál es tu edad")
-edad =parseInt(edad)
+edad = parseInt(edad)
 console.log(edad + 2021)

@@ -1,4 +1,4 @@
-/* Condicionales 
+/*Condicionales 
 Las condicionales nos permite tomar diferentes caminos en la ejecucion de código
 de acuerdo con los criterios que definimos
 la sintaxis más simple es un condicional es la siguiente

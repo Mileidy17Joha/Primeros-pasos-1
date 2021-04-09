@@ -1,7 +1,7 @@
 // Valores y expresiones Booleanas 
 
 // Booleanas
-/*console.log(true)
+console.log(true)
 console.log(false)
 
 // Expresiones Booleanas 
@@ -10,7 +10,7 @@ console.log(6 < 1) // false
 console.log(5 == 5) // Igualdad
 console.log(5 != 5) // Desigualdad
 console.log(5 <= 5)
-console.log(5 >= 5)*/
+console.log(5 >= 5)
 
 // Negración Booleana
 console.log(!true) // False
